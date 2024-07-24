@@ -1,0 +1,14 @@
+HTML
+------
+intro,structure
+headings,p,a,img
+lists
+formatting tags
+elements(block vs inline)
+Tables
+semantic elements
+
+Projects
+----------
+www
+profile-page
