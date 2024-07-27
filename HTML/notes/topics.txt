@@ -7,7 +7,7 @@ formatting tags
 elements(block vs inline)
 Tables
 semantic elements
-forms
+forms(different form types, validation)
 media
 
 Projects
@@ -16,6 +16,6 @@ www
 profile-page
 Time Tables
 Resume
-
+Licence Registration Form/School Registration Form
 
 
