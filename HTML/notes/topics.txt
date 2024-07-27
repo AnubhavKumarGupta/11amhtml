@@ -7,8 +7,15 @@ formatting tags
 elements(block vs inline)
 Tables
 semantic elements
+forms
+media
 
 Projects
 ----------
 www
 profile-page
+Time Tables
+Resume
+
+
+
