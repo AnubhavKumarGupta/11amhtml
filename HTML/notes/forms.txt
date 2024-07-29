@@ -31,6 +31,21 @@ TextArea
 submit
 Reset
 
+form-validation:
+we can validate forms using form-validation
+readonly: we can't overwrite readonly input types
+disabled: we can make inputs disabled based on choice
+required : we can make some inputs required
+maxlength : to specify maximum no.of characters
+minlength: to specify minimum no.of characters
+max/min : to specify maximum / minimum value
+pattern: uses a regular expression to specify certail email/password patterns
+
+
+
+
+
+
 
 
 
