@@ -1,0 +1,1 @@
+Colors represents visual connection to the user
