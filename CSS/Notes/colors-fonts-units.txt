@@ -30,10 +30,10 @@ units:
 units defines a measurement in web page
 px-  pixel is the smallest unite of your screen resolution
 em- enumerated value. it is x times of parent font size
-rem- 
-%- 
-vh-
-vw-
+rem- rootenumerated values, always x times of 16px
+%- we can give percentages of parent
+vh- viewport height
+vw- viewport width
 
 
 
