@@ -1,0 +1,7 @@
+Pseudo elemenets: pseudo elements contains double column and they are used to select specific parts of an element
+
+Pseudo Elements determine certains postions in the HTML elements. they are followed by ::
+
+Pseudo classes: pseudo classes are used using : and they determine element based on acondition
+
+
