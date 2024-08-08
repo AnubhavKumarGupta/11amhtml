@@ -1,0 +1,24 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 48px;
+    color: white;
+    transition:all 1s ease;
+ 
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.box:hover{
+    background-color: green;
+    /* transform:translateX(400px); */
+    transform: rotate(45deg);
+}
+@keyframes prasad {
+ 100%{
+    transform: rotate(45deg);
+ }   
+}
