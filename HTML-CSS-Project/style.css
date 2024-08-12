@@ -14,6 +14,7 @@ body{
   font-style: normal;
   height: 100vh;
   background:linear-gradient(var(--primary-yellow),var(--comic-red));
+  background-attachment: fixed;
 }
 header{
     display: flex;
@@ -52,6 +53,8 @@ header .logo span{
 }
 .right img{
     height: 500px;
+    -webkit-animation: swirl-in-fwd 2s ease-out infinite alternate both;
+	        animation: swirl-in-fwd 2s ease-out infinite alternate both;
 }
 .left{
     display: flex;
@@ -87,9 +90,43 @@ header .logo span{
     background-color: var(--comic-red);
     color: var(--secondary-yellow);
 }
-
-
-
+#about{
+  padding: 50px 100px;
+}
+.about-sec{
+    display: flex;
+    gap: 20px;
+      padding: 50px 0px;
+}
+.heading{
+    font-size: 48px;
+    text-align: center;
+}
+.about-sec .left img{
+    height: 300px; 
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.about-sec .right>p{
+     font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 5px;
+}
+.detail{
+    box-shadow: 5px 5px var(--comic-red);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 10px;
+}
+.detail p{
+    font-weight: 400;
+}
 /* animations */
 @keyframes jumping {
     0%{
@@ -101,11 +138,107 @@ header .logo span{
         bottom: 50px;
   }    
 }
+#projects{
+    padding: 50px 100px;
+}
+.projects-sec{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+    padding: 50px 0px;
+}
+.project img{
+    width: 300px;
+}
+.project{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--comic-red);
+}
+.project h3{
+    font-size: 30px;
+}
+.project p{
+    font-size: 24px;
+    font-weight: 400px;
+}
+.project button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.project a{
+    color: white;
+}
+.project button:hover{
+    background-color: var(--comic-red);
+}
+#contact{
+    padding: 50px 100px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+#contact input{
+    width: 50vw;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+#contact textarea{
+    width: 50vw;
+    height: 200px;
+    resize: none;
+    border-radius: 20px;
+    font-size: 24px;
+}
+#contact button{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
 
+footer{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    border-top: 2px solid black;
+}
 
-
-
-
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
 
 
 @media (min-width:571px) and (max-width:768px){
@@ -118,6 +251,16 @@ header{
 }
 .left{
     gap: 20px;
+}
+.about-sec{
+    flex-direction: column;
+}
+.details{
+        grid-template-columns: repeat(1,1fr);
+
+}
+.projects-sec{
+    grid-template-columns: repeat(1,1fr);
 }
 }
 @media (max-width:570px){
@@ -142,5 +285,16 @@ nav ul{
 }
 .left{
     gap: 20px;
+}
+.about-sec{
+    flex-direction: column;
+}
+.details{
+    grid-template-columns: repeat(1,1fr);
+}
+.details p{
+text-wrap: wrap;}
+.projects-sec{
+    grid-template-columns: repeat(1,1fr);
 }
 }
