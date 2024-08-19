@@ -9,3 +9,8 @@ a{
     color: white;
     text-decoration: none;
 }
+.slide1{
+    background: url('https://futureskillsprime.in//sites/default/files/2021-04/web-development.jpg');
+    height: 400px;
+    color: white;
+}

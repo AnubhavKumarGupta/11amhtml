@@ -31,4 +31,6 @@ Large	             lg          	≥992px
 Extra large	         xl         	≥1200px
 Extra extra large	xxl          	≥1400px
  
-  -- components
+  -- components:
+  components are basic building blocks which are ready made in bootstrap
+  we need to include js for that
