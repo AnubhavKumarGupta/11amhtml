@@ -14,13 +14,18 @@ console.log("hello world");
 /* task1: create a html and add external js and print hello world in console and also use multi line comment in js */
 
 // var is function scoped variable and let and const are block scoped variables
-function display ()
+function something ()
 {
+  
     if (true)
     {
-        var x = 20;
-        console.log(x)
-    }
-    console.log(x)
+        var x = 55;  
+        let y = 25;
+        const z = 23;
+     }
+   console.log(x,y)
 }
-display()
+something()
+
+
+

@@ -1,0 +1,27 @@
+Data Types: Datatypes defines the Type of Data it holds. Javascript is Dynamically Typed Language
+// int a=5; a="prasad"  --> in other programming languages variables will be fixed for one Data type but dynamic dat typing will not allow it
+
+General classification of Data types in JS are 
+i. Primitive Data Types: There are 5 main Primitive Data types
+   a. number: any numerical value is considered as number(interger or decimal)
+     numbers have some default methods like 
+     number.toFixed(3) ==> round figure the number upto 3 decimal digits
+     number.toPrecision(3) ==> round figure the number upto 3 total digits
+     number.toString(2) ==> conver given number into binary
+   
+     numbers also have Math methods:
+     Math.sqrt --> finds the square root
+     Mathcbrt ---> finds the cube root
+     Math.abs ---> finds absolute value(remove negitive)
+     Math.floor() --> lowest nearest integer
+     Math.ceil() --> highest nearest integer
+     Math.random()  --> random value between 0.0 to 1.0
+     Math.max()---> finds maximum value
+     Math.min()---> finds minimum value
+     Math.pow(a,b) --> finds a power b
+     Math.round() --> round figure the number
+   b. string: any combination of alphanumerical value is string.
+   c. boolean: boolean is used to define true/ false
+   d. undefined
+   e. null 
+ii. Non-primitive Data types (reference Data types)

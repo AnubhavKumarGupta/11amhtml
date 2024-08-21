@@ -1,7 +1,7 @@
 Javascript is the Programming Language of Web. js is used for dynamic functionalities of websites.
 JS is synchronous (line by line) , single threaded(One task at a time) programming language
 
-Js in introduced in 1994 but initally names as livescript but later they changed the name to javascript because java is spopular at 1995
+Js in introduced in 1994 but initally names as livescript but later they changed the name to javascript because java is popular at 1995
 Brendan Eich created js for mozilla project. for official documentation of js , we can check mdn docs
 
 How to include Javascript into HTML?
@@ -33,3 +33,29 @@ JS uses auto semi-colon insertion for every line
 
 3. what are variables and how many ways we can declare variables in JS?
 variables also called identifiers are used to hold values which may change. to name variable, there are some rules, never start with number and no other symbol except _ but JS will not use data types while declaring variables
+
+There are three Ways to declare / initalise the variable in Javascript
+i. var : var is used to declare a variable. var is a function scoped variable
+  --  var a=50; // initializing variable a with 50
+  -- var a =25 // redeclare is possible with var
+  --  a=55; // reassigning is possible with var
+ii. let and const: let and const are block scoped variables.
+  -- let b=25; // initializing a variable b with 25;
+  -- let b=55; // it is wrong, redeclare is not possible using let and const
+  -- b=55; // reassign is possible;
+  -- const x=20;
+  -- x=55; // const cannot be redeclared also
+
+  To learn Programming Languages, there are some basics:
+  -- variables
+  -- data types
+  -- operators
+  -- control stmnts
+  -- loops
+  -- functions
+
+
+
+
+
+
