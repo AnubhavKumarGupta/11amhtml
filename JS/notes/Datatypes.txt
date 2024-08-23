@@ -75,3 +75,12 @@ console.log("prasad".slice(1, 5)) //rasa
     undefined means an accidental absence of value. but it expects value in future
    e. null: null means intentional absence of value
 ii. Non-primitive Data types (reference Data types)
+
+what is difference primitve and non-primitive?
+Priitive Data types stores the values and compares it. Non promitive Datatypes compares Addresses
+Primitve Datatypes are immutable(will not change original when a method is applied). non-primitive data are mutable(will change original when a method is applied)
+
+there are 3 non primitve types in JS
+i.functions
+ii.Arrays
+iii.objects 

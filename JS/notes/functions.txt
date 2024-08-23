@@ -1,0 +1,15 @@
+Function: a function is a block of code  for a specific purpose
+used for reusability
+we divide the whole logic into smaller parts . so that we can repeat them and easy to debug
+
+//Basic function - simple function
+function function-name(parameters){
+    //statements
+}
+every function needs to called
+function-name()
+
+
+
+
+

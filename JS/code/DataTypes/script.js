@@ -79,6 +79,18 @@ console.log(1 + isGoodBoy)
 
 
 
+let a1 = 20, b1 = 20;
+console.log(a1 == b1) //true
+let arr1 = [5, 6], brr1 = [5, 6]
+console.log(arr1 == brr1)//false
+let str11 = "prasad"
+str11.toUpperCase()
+console.log(str11)
+let arr2 = [5, 6]
+arr2.push(5);
+console.log(arr2)
+
+
 
 
 
