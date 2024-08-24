@@ -63,6 +63,126 @@ let x=calc(5,6)
 console.log(x)
 
 
+// function expressions: functions can be expresses or interpreted as variabled by JS engine
+function fun3 (a, b)
+{
+    console.log(a-b)
+}
+var fun3 = function (a,b) // function expression
+{
+    console.log(a + b)
+}
+let p = 25;
+console.log(fun3,p)
+
+// write a function mul which takes two values and print their multiplication. also convert that function into function expression
+function mul (a, b)
+{
+    return a*b
+}
+mul(5, 6);
+var mul = function (a, b)
+{
+    return a * b;
+}
+mul(5, 6);
+// currying
+var mul = function (x)
+{
+    return function (y)
+    {
+        return x*y
+    }
+}
+let x1 = mul(5)
+let y1= x1(6)
+
+
+//Arrow functions
+let fun4=function (a, b)
+{
+    return a + b;
+}
+let res=fun4(2,3)
+console.log(res)
+
+let fun5=(a,b)=>a*b
+let res2 = fun5(2, 3)
+console.log(res2)
+// write a function which takes a and b and return sum of its squares, use normal function expression and also convert them into arrow 
+let sumOfSquares = function (a, b) { return a * a + b * b; }
+let sumOfSquares2 = (a, b) => a * a + b * b;
+// what is the difference between arrow and normal? arrow is modern way of
+// writing function expression and it is simple. Also if only one statement is there , arrow function will return by default
+
+
+//-- function can be nested . one function inside another function isacalled nested functions, If nested function can remember outer function values after outer execution ended is known as closures
+
+function outer ()
+{
+    let c = 0;
+    function inner ()
+    {
+        c++;
+        console.log(c)
+    }
+    return inner;
+}
+let z = outer();
+console.log(z) // complete inner function
+z()
+z()
+
+//callback functions
+function mad ()
+{
+    console.log("I'm mad")
+}
+function bad ()
+{
+    console.log("i'm bad")
+}
+function dad (a, b)
+{
+    a();
+    b();
+}
+dad(mad, bad)
+// mad and bad are callback functions because they are passed
+// to another function as a parameter
+// function which takes other functions as parameter is called
+//Higher Order function dad is higher order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
