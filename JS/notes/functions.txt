@@ -57,6 +57,70 @@ let x=add(5,6)
 console.log(x)
 
 
+// functions can be expresses as a variable. it's called function expression
+var fun= function(){
+    console.log("hello world")
+}
+console.log(fun) //fun
+// function can be also explained as
+ arrow functions. arrow function returns the default retune value if only one statement is there
+
+const fun= ()=>   console.log("hello world")
+
+// inner functions can remeber outer function values even after outer function execution ended -- closure
+
+function outer ()
+{
+    let c = 0;
+    function inner ()
+    {
+        c++;
+        console.log(c)
+    }
+    return inner;
+}
+let z = outer();
+console.log(z) // complete inner function
+z()
+z()
+
+
+//callback functions - one function inside the parameter of another function is called callback function.
+// Function which takes another function as a parameter is called Higher order function
+
+function x(){
+    console.log("good")
+}
+function y(a,b){
+    b();
+    console.log(a)
+}
+y("boy",x)
+
+
+//
+// a function can be called without name --> anonymous function
+// a function can call itself only once --> IIFE - Immediate invoke function expression
+(function ()
+{
+    console.log("hiiiiiiiiiiiiiiiiiii") //encapsulation
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
