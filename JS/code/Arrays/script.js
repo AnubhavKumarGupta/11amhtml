@@ -70,6 +70,92 @@ let result3 = ["prasad", "Jessi", "Priya", "Shekhar"].map(
 (v)=>v.charAt(0).toUpperCase())
 console.log(result3)
 
+let values2 = [5, 6, 8, 7, 12, 11]
+// return whether each value even or odd
+let evenOdd =
+    values2.map((val) => (val % 2 == 0) ? "Even" : "Odd")
+console.log(evenOdd)
+let evenOdd2 =
+    values2.map((val) => val % 2 == 0)
+    console.log(evenOdd2)
+
+// imagine i want only even numbers
+
+let evenOdd3 =
+    values2.filter((val) => val % 2 == 0)
+console.log(evenOdd3)
+
+ let names= ["jaya Sharma","MaSharma pandey","suma pandey","Adah Sharma","Rohit Sharma"]
+let result5=names.filter((name)=>name.endsWith('Sharma'))
+console.log(result5);
+
+let result6 = names.some((name) => name.endsWith("pandey"));
+console.log(result6)
+
+let result7 = names.every((name) => name.endsWith("Sharma"))
+console.log(result7)
+
+let arr4 = [5, 1, 3, 2,11]
+console.log(arr4.sort())// [1,11,2,3,5] -- lexigraphically
+console.log(arr4.sort((a,b)=>a-b)) //ascending
+console.log(arr4.sort((a, b) => b - a)) //descending
+
+let arr5 = [5, 4, 3, 2, 1]
+console.log(arr5.reverse()) //[1,2,3,4,5]
+
+//reduce is used for accumulated logic
+
+let arr6 = [5, 4, 3, 2, 1]
+let value = arr6.reduce((prev, curr) => prev + curr, 0)
+console.log(value)
+
+
+// Objects
+let obj = {
+    username: "PRASAD",
+    age: 65,
+    display: function ()
+    {
+        console.log("hello world")
+    }
+}
+console.log(obj.username, obj['username'])
+obj.display();
+let movieData = [
+    {
+        name: "RRR",
+        year: 2023
+    },
+    {
+        name: "Titanic",
+        year:1998
+    },
+    {
+        name: "KGF",
+        year:2018
+    }
+]  // Write a function to print names of the movies with their year
+function printMovies ()
+{
+    movieData.forEach((m) =>console.log(m.name+"  "+m.year))
+}
+printMovies()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
