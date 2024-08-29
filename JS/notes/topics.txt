@@ -20,3 +20,9 @@ switch
 while
 dowhile
 for, for..of,for..in
+
+DOM
+===========
+   --- selection
+   --- manipulation
+   --- creation
