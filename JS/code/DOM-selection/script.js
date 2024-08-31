@@ -16,10 +16,16 @@ console.log(document.querySelectorAll('.btn')) // select all elements
 function myFun ()
 {
 const pa = document.getElementById("para")
-pa.textContent = "hiiiiiiiiiiiiiiiiiiiii"
+pa.textContent = "<b>hiiiiiiiiiiiiiiiiiiiii</b>"
     console.log(pa.textContent) // won't consider CSS
     console.log(pa.innerText)     // also consider CSS
-    pa.innerHTML = `<strong>Hiii</strong>`
+}
+function myfun2 ()
+{
+    const inp = document.getElementById('inp');
+    document.getElementById('para2').textContent= inp.value
+    document.getElementById('para2').classList.toggle('dark')
+document.getElementById('para2').style.fontSize='78px'
 }
 
 
