@@ -14,6 +14,10 @@ you can manipulate or change the value dynamicaaly using
 -- textContent - returns the text inside the element but it won't consider CSS
 -- innerText  - returns the text inside the element but it will consider CSS
 -- innerHTML - it takes HTML code and executes it 
+-- classList - classList is used to add/remove/toggle any classes to HTML element dynamically
+-- style - style is used to add styles to HTML elements using JS
+-- value - value is used to access the value of a element(input element)
+
 
 
 
