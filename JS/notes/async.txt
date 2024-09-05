@@ -1,0 +1,8 @@
+Asynchronous means which takes time
+JS is basically synchronous so it ignores asynchronous and when callstack got emptied , async will run
+Timers
+ -- setTimeOut(callback,time in milli seconds)
+ -- setInterval(callback,time in milli seconds) -- it runs
+ for every interval of time
+ -- To stop timeOut,you can use clearTimeOut();
+ -- to stop interval,you can use clearInterval()
