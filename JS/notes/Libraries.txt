@@ -1,0 +1,8 @@
+library is a pre written code used for a specific purpose
+Js also have an impresive set of libraries. each library is used for specic purpose
+
+ some libraries are:
+   1. JQuery
+       JQuery is a lightweight js library used for DOM manipulations
+   2. Typed Js
+      Typed js is used for typing effect

@@ -26,3 +26,17 @@ DOM
    --- selection
    --- manipulation
    --- creation
+
+ASYNC
+===========
+Timers(setTimeOut,setInterval),
+events(event listners vs event handlers, mouse events,keyboard events, window events, form events, capturing,bubbling)
+API(fetch),
+Promises
+Async AWAIT
+API - CRUD
+Asynchronous js structure - event loop, message queue
+ES6(classes,modules,destructure),
+Libraries
+Prototype inheritance, object in detail(this operator)
+window object(BOM)
