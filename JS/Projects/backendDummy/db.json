@@ -1,14 +1,3 @@
 {
-  "movies": [
-    {
-      "Title": "Salaarrrrrrrr",
-      "Year": "2024",
-      "id": "099c"
-    },
-    {
-      "id": "19ba",
-      "Title": "kgf",
-      "Year": "2023"
-    }
-  ]
+  "movies": []
 }
